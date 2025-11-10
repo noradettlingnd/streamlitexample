@@ -2,7 +2,7 @@ import pandas as pd
 import streamlit as st
 import joblib
 
-model = joblib.load('/Users/sberry5/Documents/teaching/UDA/code/streamlit_examples/lasso_model.joblib')
+model = joblib.load('/Users/noradettling/Documents/Notre Dame/Unstructed Data Analysis/Week 4/streamlitexample/data/lasso_model.joblib')
 
 st.title('Employee Turnover Prediction')
 st.write('Use the following form to submit data for a prediction.')
